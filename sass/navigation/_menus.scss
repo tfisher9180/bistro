@@ -1,0 +1,55 @@
+.nav-menu {
+	list-style: none;
+	margin: 0;
+
+	ul {
+		list-style: none;
+	}
+}
+
+.site-navigation {
+
+	.nav-menu {
+		display: none;
+
+		ul {
+			display: none;
+		}
+	}
+
+	.menu-toggle {
+		background-color: transparent;
+		padding: 0;
+
+		@media (min-width: $query-md) {
+			display: none;
+		}
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}

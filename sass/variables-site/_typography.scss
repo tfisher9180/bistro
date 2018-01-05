@@ -1,0 +1,16 @@
+$font-size-base: 14;
+$font-size-mixin-base: 20;
+$font-size-base-points: $font-size-base / $font-size-mixin-base;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+$font__main: 'Lato', sans-serif;
+$font__headings: 'Titillium Web', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.42857143;
+$font__line-height-pre: 1.6;
